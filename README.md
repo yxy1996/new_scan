@@ -12,11 +12,13 @@ In new_scan/launch/new_scan.launch:
 "new_scan_topic"   is the new scan topic name.
 For example, assume that I have tb3_0/scan, tb3_1/scan, tb3_2/scan now,
 then the correct configuration is as follows:
+
 ```
 	<param name="robot_scan_topic"  value="scan"/>
 	<param name="robot_namespace"   value="tb3"/>
 	<param name="new_scan_topic"    value="new_scan"/>
 ```
+
 And tb3_0/new_scan, tb3_1/new_scan, tb3_2/new_scan will be generated.
 
 
