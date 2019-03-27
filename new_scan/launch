@@ -1,7 +1,0 @@
-<launch>
-	<node pkg="new_scan" type="new_scan" name="scan_filter">
-		<param name="robot_scan_topic"  value="scan"/>
-		<param name="robot_namespace"   value="tb3"/>
-		<param name="new_scan_topic"    value="new_scan"/>		
-	</node>
-</launch>
